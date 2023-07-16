@@ -174,32 +174,7 @@ function FeaturesDesktop() {
               />
             ))}
           </Tab.List>
-          <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 xl:px-16">
-            <div className="-mx-5 flex">
-              {features.map((feature, featureIndex) => (
-                <Tab.Panel
-                  static
-                  key={feature.name}
-                  className={clsx(
-                    'px-5 transition duration-500 ease-in-out [&:not(:focus-visible)]:focus:outline-none',
-                    featureIndex !== selectedIndex && 'opacity-60'
-                  )}
-                  style={{ transform: `translateX(-${selectedIndex * 100}%)` }}
-                  aria-hidden={featureIndex !== selectedIndex}
-                >
-                  <div className="w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
-                    <Image
-                      className="w-full"
-                      src={feature.image}
-                      alt=""
-                      sizes="52.75rem"
-                    />
-                  </div>
-                </Tab.Panel>
-              ))}
-            </div>
-            <div className="pointer-events-none absolute inset-0 rounded-4xl ring-1 ring-inset ring-slate-900/10" />
-          </Tab.Panels>
+          
         </>
       )}
     </Tab.Group>
@@ -218,9 +193,7 @@ export function SecondaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Three steps to Wikipedia ethics
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Lets break down what makes Wikipedia participation white-hat or black-hat.
-          </p>
+
         </div>
         <FeaturesMobile />
         <FeaturesDesktop />

@@ -8,52 +8,38 @@ const faqs = [
     {
       question: 'How can I tell if a Wikipedia firm is actually ethical?',
       answer:
-        'Many Wikipedia services that are banned from Wikipedia and violate the site&#39;s Terms of Use advertise themselves as ethical, so how can you tell whose the real deal? You&#39;re in luck. Wikipedia itself maintains a list of businesses that meet two basic criteria: (1) they know where we are on Wikipedia and (2) they haven&#39;t blocked us.'
+        'Many Wikipedia services advertise they are ethical even though they are banned from Wikipedia for illegal, covert practices. Luckily, Wikipedia itself <a href="https://en.wikipedia.org/wiki/Wikipedia:List_of_paid_editing_companies#Never_blocked">has a list of vendors</a> that meet two basic criteria: (1) Wikipedians know where we are on Wikipedia (2) and Wikipedians have not blocked us. Using a vendor from that list should help avoid falling for scams.'
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
-    },
-    {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Can I write my own content and have EthicalWiki post it?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Sometimes clients insist on writing their own content for EthicalWiki to review and provide feedback on. This approach has a 100% failure rate. In the 10+ years EthicalWiki has been in business, we have never seen good results from this appraoch, not once. It almost always doubles the budget and time when the client eventually hires us to write the content.'
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
-      answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+      question: 'How much does it cost?',
+      answer: 'Generally, a professional white-hat firm is much more expensive than those using covert practices. It takes more expertise and time to do things the right way, whereas blackhat firms often use cheap out-sourced labor. Our fees range from $900 for small, simple projects, to $8,000 for extremely large pages on billion dollar companies. Most projects range from $2,000-$4,000. New pages are usually small and are always $1,800.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
-      answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
-    },
-    {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
-    },
+    question: 'How long does it take?',
+    answer:
+      'Wikipedians are volunteers that are not beholden to any particular timetable. Sometimes, very large projects are approved by editors within 24 hours. Other times, we spend months following up on obvious changes. Three months is a good general timetable to circulate internally.',
+  },
+
+
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'How do I get started?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'Schedule a consultation to discuss what changes you are looking for and get advice on how Wikipedias rules apply to your situation. Once you have settled on what changes you want to pursue, Mr. King will provide a Wikipedia Assessment that includes a quote.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'What if I want to create a new page?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
-    },
+        'In most cases, EthicalWiki advises against creating new pages. Wikipedia is pretty reliable about starting a page on those topics that are famous enough to meet Wikipedias criteria. However, if you are looking to submit a new page, we recommend using our New Page Assessment tool to get a free assessment from Mr. King on whether your topic is famous enough to qualify for a page.',
+    }
   ],
 ]
 
@@ -80,10 +66,7 @@ export function Faqs() {
           >
             Frequently asked questions
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
-          </p>
+
         </div>
         <ul
           role="list"

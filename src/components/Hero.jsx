@@ -22,7 +22,7 @@ export function Hero() {
         Wikipedia engagement
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-      Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative for brands and individuals that want to comply with the law, ethics, and Wikipedia's rules.
+      Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative for brands and individuals that want an honest approach to Wikipedia.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Schedule a Consultation</Button>
@@ -30,8 +30,7 @@ export function Hero() {
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
         >
-
-          <span className="ml-3">Learn about Ethics</span>
+          <span className="ml-3">New Page Assessment</span>
         </Button>
       </div>
       <div className="mt-36 lg:mt-44">
