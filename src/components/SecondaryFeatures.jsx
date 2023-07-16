@@ -10,10 +10,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Legal Compliance',
+    summary: 'Be transparent about your vested interest in the page',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Wikipedia\'s Terms of Use and FTC regulations prohibit brands from participating on crowd-sourced websites without announcing their connection to the topic.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -44,11 +44,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Wikipedia Policy',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Request edits rather than making them yourself',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Wikipedia\'s Conflict of Interest policy requires that you request edits from the site\'s editors, just like you would for any other independent website.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,11 +72,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'WikipediaEthos',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Do your best to contribute neutral content.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Wikipedia\'s Arbitration Committee (the Supreme Court of Wikipedia) has confirmed they expect you to comply with the spirit of Wikipedia, not just the letter of its rules.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -216,11 +216,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Three steps to Wikipedia ethics
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Lets break down what makes Wikipedia participation white-hat or black-hat.
           </p>
         </div>
         <FeaturesMobile />
