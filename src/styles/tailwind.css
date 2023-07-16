@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+a {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+p {
+  margin: 1rem 0;
+}
+
 #__next {
   min-height: 100%;
 }

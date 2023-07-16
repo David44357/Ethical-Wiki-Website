@@ -6,6 +6,10 @@ import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import Cards from '@/components/Cards'
+import CardsWidget from '@/widgets/cardsWidget'
+import HeroWidget from '@/widgets/heroWidget'
+import CtaWidget from '@/widgets/ctaWidget'
 
 export default function Home() {
   return (
@@ -18,13 +22,15 @@ export default function Home() {
         />
       </Head>
 
+
       <main>
-        <Hero />
+        <HeroWidget />
         <Pricing />
         <SecondaryFeatures />
-        <PrimaryFeatures />
+        <CardsWidget />
+        <Cards />
         <Faqs />
-        <CallToAction />
+        <CtaWidget />
 
       </main>
 

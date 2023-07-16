@@ -20,19 +20,19 @@ const features = [
   {
     title: 'Draft',
     description:
-      "Ethical Wiki researchs, writes, and wiki-codes a draft Wikipedia content that conforms to Wikipedia's rules and norms.",
+      "",
     image: wikicode,
   },
   {
     title: 'Review',
     description:
-      "Ethical Wiki advises you on Wikipedia's rules and norms as you gather feedback internally on the draft.",
+      "",
     image: screenshotVatReturns,
   },
   {
     title: 'Discuss',
     description:
-      'Ethical Wiki coaches your spokesperson through engaging with the Wikipedia community to discuss the changes.',
+      '',
     image: screenshotReporting,
   },
 ]
