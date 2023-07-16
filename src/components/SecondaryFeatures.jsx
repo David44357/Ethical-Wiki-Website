@@ -4,9 +4,6 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
@@ -14,7 +11,6 @@ const features = [
     summary: 'Be transparent about your vested interest in the page',
     description:
       'Wikipedia\'s Terms of Use and FTC regulations prohibit brands from participating on crowd-sourced websites without announcing their connection to the topic.',
-    image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -49,7 +45,6 @@ const features = [
       'Request edits rather than making them yourself',
     description:
       'Wikipedia\'s Conflict of Interest policy requires that you request edits from the site\'s editors, just like you would for any other independent website.',
-    image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
         <>
@@ -72,12 +67,11 @@ const features = [
     },
   },
   {
-    name: 'WikipediaEthos',
+    name: 'Wikipedias Ethos',
     summary:
       'Do your best to contribute neutral content.',
     description:
       'Wikipedia\'s Arbitration Committee (the Supreme Court of Wikipedia) has confirmed they expect you to comply with the spirit of Wikipedia, not just the letter of its rules.',
-    image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
         <>
@@ -191,7 +185,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Three steps to Wikipedia ethics
+            Three steps to ethical Wikipedia engagement
           </h2>
 
         </div>

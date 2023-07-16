@@ -27,7 +27,7 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Schedule a Consultation</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="/consultation"
           variant="outline"
         >
           <span className="ml-3">New Page Assessment</span>

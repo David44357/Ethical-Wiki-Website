@@ -11,22 +11,26 @@ const faqs = [
         'Many Wikipedia services advertise they are ethical even though they are banned from Wikipedia for illegal, covert practices. Luckily, Wikipedia itself <a href="https://en.wikipedia.org/wiki/Wikipedia:List_of_paid_editing_companies#Never_blocked">has a list of vendors</a> that meet two basic criteria: (1) Wikipedians know where we are on Wikipedia (2) and Wikipedians have not blocked us. Using a vendor from that list should help avoid falling for scams.'
     },
     {
-      question: 'Can I write my own content and have EthicalWiki post it?',
+      question: 'Why participate ethically if I can get better results, faster and easier from covert practices?',
       answer:
-        'Sometimes clients insist on writing their own content for EthicalWiki to review and provide feedback on. This approach has a 100% failure rate. In the 10+ years EthicalWiki has been in business, we have never seen good results from this appraoch, not once. It almost always doubles the budget and time when the client eventually hires us to write the content.'
+        'Using unethical practices often garner short-term results at a long-term cost. Even if your changes are not immediately reverted, often a <a href="https://en.wikipedia.org/wiki/Template:Undisclosed_paid>badge of shame</a> is later added to the page, publicly advertising your misconduct to readers. Ethical Wiki is often brought in to repair things after someone has already created a bad situation using a black-hat vendor.'
     },
   ],
   [
     {
       question: 'How much does it cost?',
-      answer: 'Generally, a professional white-hat firm is much more expensive than those using covert practices. It takes more expertise and time to do things the right way, whereas blackhat firms often use cheap out-sourced labor. Our fees range from $900 for small, simple projects, to $8,000 for extremely large pages on billion dollar companies. Most projects range from $2,000-$4,000. New pages are usually small and are always $1,800.',
+      answer: 'Our fees range from $900 for small, simple projects, to $8,000 for extremely large pages on billion dollar companies. Most projects range from $2,000-$4,000. New pages are usually small and are always $1,800.',
     },
     {
     question: 'How long does it take?',
     answer:
       'Wikipedians are volunteers that are not beholden to any particular timetable. Sometimes, very large projects are approved by editors within 24 hours. Other times, we spend months following up on obvious changes. Three months is a good general timetable to circulate internally.',
   },
-
+  {
+    question: 'Can I write my own content and have Ethical Wiki post it?',
+    answer:
+      'Sometimes clients insist on writing their own content for Ethical Wiki to review and provide feedback on. This approach has a 100% failure rate. It almost always doubles the budget when the client eventually hires Ethical Wiki to write the content.'
+  },
 
   ],
   [
@@ -38,7 +42,7 @@ const faqs = [
     {
       question: 'What if I want to create a new page?',
       answer:
-        'In most cases, EthicalWiki advises against creating new pages. Wikipedia is pretty reliable about starting a page on those topics that are famous enough to meet Wikipedias criteria. However, if you are looking to submit a new page, we recommend using our New Page Assessment tool to get a free assessment from Mr. King on whether your topic is famous enough to qualify for a page.',
+        'In most cases, Ethical Wiki advises against creating new pages. Wikipedia is pretty reliable about starting a page on those topics that are famous enough to meet Wikipedias criteria. However, if you are looking to submit a new page, we recommend using our New Page Assessment tool to get a free assessment from Mr. King on whether your topic is famous enough to qualify for a page.',
     }
   ],
 ]

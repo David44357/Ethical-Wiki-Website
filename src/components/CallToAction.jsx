@@ -21,15 +21,20 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Schedule a Consultation
+            Get Started
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
           See if Wikipedia's rules support the changes you're looking for. 
-
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Schedule
-          </Button>
+          <div className="mt-10 flex justify-center gap-x-6">
+        <Button href="/register">Schedule a Consultation</Button>
+        <Button
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          variant="outline"
+        >
+          <span className="ml-3">New Page Assessment</span>
+        </Button>
+      </div>
         </div>
       </Container>
     </section>

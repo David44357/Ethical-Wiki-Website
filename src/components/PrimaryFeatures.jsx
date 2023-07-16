@@ -14,25 +14,25 @@ const features = [
   {
     title: 'Consultation',
     description:
-      "EthicalWiki consults on how Wikipedia's complex content policies apply to your situation and the edits you're looking for",
+      "Ethical Wiki consults on how Wikipedia's complex content policies apply to your situation and the edits you're looking for",
     image: solutions,
   },
   {
     title: 'Drafting',
     description:
-      "EthicalWiki researchs, writes, and wiki-codes a draft Wikipedia content that conforms to Wikipedia's rules and norms.",
+      "Ethical Wiki researchs, writes, and wiki-codes a draft Wikipedia content that conforms to Wikipedia's rules and norms.",
     image: wikicode,
   },
   {
     title: 'Review',
     description:
-      "EthicalWiki advises you on Wikipedia's rules and norms as you gather feedback internally on the draft.",
+      "Ethical Wiki advises you on Wikipedia's rules and norms as you gather feedback internally on the draft.",
     image: screenshotVatReturns,
   },
   {
     title: 'Engagement',
     description:
-      'EthicalWiki coaches your spokesperson through engaging with the Wikipedia community to discuss the changes.',
+      'Ethical Wiki coaches your spokesperson through engaging with the Wikipedia community to discuss the changes.',
     image: screenshotReporting,
   },
 ]
@@ -133,13 +133,13 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="mt-10 w-[23rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[40rem]">
                       <Image
                         className="w-full"
                         src={feature.image}
                         alt=""
                         priority
-                        sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
+                        sizes="(min-width: 512px) 67.8125rem, (min-width: 320px) 50vw, 23rem"
                       />
                     </div>
                   </Tab.Panel>
