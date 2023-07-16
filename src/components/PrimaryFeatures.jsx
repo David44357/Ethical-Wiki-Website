@@ -12,13 +12,13 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Consultation',
+    title: 'Consult',
     description:
       "Ethical Wiki consults on how Wikipedia's complex content policies apply to your situation and the edits you're looking for",
     image: solutions,
   },
   {
-    title: 'Drafting',
+    title: 'Draft',
     description:
       "Ethical Wiki researchs, writes, and wiki-codes a draft Wikipedia content that conforms to Wikipedia's rules and norms.",
     image: wikicode,
@@ -30,7 +30,7 @@ const features = [
     image: screenshotVatReturns,
   },
   {
-    title: 'Engagement',
+    title: 'Discuss',
     description:
       'Ethical Wiki coaches your spokesperson through engaging with the Wikipedia community to discuss the changes.',
     image: screenshotReporting,
