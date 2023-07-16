@@ -6,9 +6,9 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'How can I tell if a Wikipedia firm is actually ethical?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Many Wikipedia services that are banned from Wikipedia and violate the site&#39;s Terms of Use advertise themselves as ethical, so how can you tell whose the real deal? You&#39;re in luck. Wikipedia itself maintains a list of businesses that meet two basic criteria: (1) they know where we are on Wikipedia and (2) they haven&#39;t blocked us.'
     },
     {
       question: 'Can I pay for my subscription via purchase order?',
