@@ -28,10 +28,8 @@ export default function Home() {
         <Pricing />
         <SecondaryFeatures />
         <CardsWidget />
-        <Cards />
         <Faqs />
         <CtaWidget />
-
       </main>
 
     </>

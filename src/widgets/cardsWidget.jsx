@@ -68,8 +68,8 @@ export default function CardsWidget() {
                                         <p className="mt-3 text-sm text-gray-500">{post.description}</p>
                                     </a>
                                 </div>
-                                <p className="text-sm font-medium text-indigo-600 mt-4">
-                                    <a href={post.href} className="hover:underline">Read case study</a>
+                                <p className="text-sm font-medium brand-color mt-4">
+                                    <a href={post.href} className="brand-color hover:underline">Read case study</a>
                                 </p>
                             </div>
                         </div>

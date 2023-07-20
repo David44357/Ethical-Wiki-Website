@@ -8,7 +8,7 @@ export function Hero() {
     <Container className="pb-16 pt-20 text-center lg:pt-32 bg-[url('/img/hero-pattern.svg')]">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         {' '}
-        <span className="relative whitespace-nowrap text-blue-600">
+        <span className="relative whitespace-nowrap brand-color">
           <svg
             aria-hidden="true"
             viewBox="0 0 418 42"
@@ -22,7 +22,7 @@ export function Hero() {
         Wikipedia engagement
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-      Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative for brands and individuals that want an honest approach to Wikipedia.
+        Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative for brands and individuals that want an honest approach to Wikipedia.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/schedule">Schedule a Consultation</Button>

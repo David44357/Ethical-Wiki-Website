@@ -102,7 +102,7 @@ export function PrimaryFeatures() {
                           className={clsx(
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
-                              ? 'text-blue-600 lg:text-white'
+                              ? 'brand-color lg:text-white'
                               : 'text-blue-100 hover:text-white lg:text-white'
                           )}
                         >

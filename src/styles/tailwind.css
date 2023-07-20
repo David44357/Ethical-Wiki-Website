@@ -4,8 +4,7 @@
 
 
 a {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: #ff551d;
 }
 
 p {
@@ -14,4 +13,21 @@ p {
 
 #__next {
   min-height: 100%;
+}
+
+
+.brand-bg {
+  background-color: #ff551d;
+}
+
+.brand-color {
+  color: #ff551d;
+}
+
+.brand-bg-light {
+  background-color: #ffe0d5;
+}
+
+.bg-blue {
+  background: #394cce;
 }

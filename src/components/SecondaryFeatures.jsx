@@ -41,7 +41,7 @@ function Feature({ feature, isActive, className, ...props }) {
       <div className='flex justify-between'>
         <div style={{ maxWidth: '52px' }} className='pt-10'><feature.icon /></div>
         <div className='pl-4'>
-          <h3 className={'text-sm font-medium text-blue-600'}>{feature.name}</h3>
+          <h3 className={'text-sm font-medium brand-color'}>{feature.name}</h3>
           <p className="font-display text-xl text-slate-900">
             {feature.summary}
           </p>
