@@ -57,7 +57,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
       <p
         className={clsx(
-          'mt-2 text-base',
+          'text-base',
           featured ? 'text-white' : 'text-slate-400'
         )}
       >
@@ -91,15 +91,16 @@ export function Pricing() {
       id="pricing"
       aria-label="Pricing"
       className="bg-slate-900 py-20 sm:py-32"
+      style={{ backgroundColor: '#210605' }}
     >
       <Container>
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             About Ethical Wiki
-  
+
           </h2>
           <p className="mt-4 text-lg text-slate-400 w-9/12 m-auto">
-            Ethical Wiki is a boutique firm operated by Wikipedian David King.
+            Ethical Wiki is a boutique firm operated by David King.
             It serves startups, Fortune 500 companies, politicans, celebrities, non-profits, and others.
           </p>
         </div>
@@ -115,7 +116,7 @@ export function Pricing() {
           <Plan
             name="Number of Edits"
             price="50,000+"
-            description="Many Wikipedia firms are operated by marketing professionals (not Wikipedians) who are Wikipedia newbies. Wikipedian David King is a genuine veteran."
+            description="Many Wikipedia firms are operated by marketing professionals (not Wikipedians) who are Wikipedia newbies. David King is a genuine veteran."
             href="/register"
             features={[
             ]}
@@ -123,7 +124,7 @@ export function Pricing() {
           <Plan
             name="of the Best Company Pages"
             price="30%+"
-            description="EthicalWiki has written more than 30% of Wikipedia's best company pages, according to Wikipedia's own quality scores."
+            description="Ethical Wiki has written more than 30% of Wikipedia's best company pages, according to Wikipedia's own quality scores."
             href="/register"
             features={[
             ]}

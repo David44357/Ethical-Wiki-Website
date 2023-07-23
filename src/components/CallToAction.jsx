@@ -23,18 +23,18 @@ export function CallToAction() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             Get Started
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-white">
-          See if Wikipedia's rules support the changes you're looking for. 
+          <p className="text-lg tracking-tight text-white">
+            See if Wikipedia's rules support the changes you're looking for.
           </p>
           <div className="mt-10 flex justify-center gap-x-6">
-          <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/schedule">Schedule a Consultation</Button>
-        <Button href="/newpage"
-          variant="outline" >
-          <span className="ml-3">New Page Assessment</span>
-        </Button>
-      </div>
-      </div>
+            <div className="mt-10 flex justify-center gap-x-6">
+              <Button href="/schedule">Schedule a Consultation</Button>
+              <Button href="/newpage"
+                variant="outline" >
+                <span className="ml-3">New Page Assessment</span>
+              </Button>
+            </div>
+          </div>
         </div>
       </Container>
     </section>

@@ -116,7 +116,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Three steps to ethical Wikipedia engagement
+            Three steps to Ethical Wikipedia Engagement
           </h2>
 
         </div>
