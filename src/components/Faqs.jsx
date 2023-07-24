@@ -53,7 +53,7 @@ export function Faqs() {
           >Frequently asked questions
           </h2>
         </div>
-<ul class="grid md:grid-cols-2 gap-6 grid lg:grid-cols-2">
+<ul class="md:grid-cols-2 gap-6 grid lg:grid-cols-2">
         {faqs.map((item) => (
           <>
             <li><h3 className="font-display text-lg leading-7 text-slate-900 px-2 sm-mt-10">
