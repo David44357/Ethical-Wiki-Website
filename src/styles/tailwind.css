@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a {
+  color: #ff551d;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+#__next {
+  min-height: 100%;
+}
+
+
+.brand-bg {
+  background-color: #ff551d;
+}
+
+.brand-color {
+  color: #ff551d;
+}
+
+.brand-bg-light {
+  background-color: #ffe0d5;
+}
+
+.bg-blue {
+  background: #394cce;
+}
