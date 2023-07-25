@@ -110,10 +110,10 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-4 pt-20 sm:pb-8 sm:pt-32 lg:pb-16"
+      className="pb-20 pt-20 sm:pb-32 sm:pt-32 lg:pb-16 lg:pt-16"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
+        <div className="mx-auto max-w-2xl md:text-center mb-10">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Three steps to Ethical Wikipedia Engagement
           </h2>

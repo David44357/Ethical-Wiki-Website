@@ -1,6 +1,4 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
 
 const navigation = [
     { name: 'Product', href: '#' },
@@ -44,7 +42,7 @@ export default function HeroWidget() {
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
                                     <a
-                                        href="#"
+                                        href="/newpage.jsx"
                                         className="w-ful brand-bg-light flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md brand-color bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                                     >
                                        <span class="text-xl">New Page Assessment</span>
