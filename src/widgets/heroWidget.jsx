@@ -1,11 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 
-const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
-]
+
 
 export default function HeroWidget() {
     return (
@@ -34,7 +29,7 @@ export default function HeroWidget() {
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
                                     <a
-                                        href="#"
+                                        href="/meeting"
                                         className="w-full brand-bg flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10"
                                     >
                                         <span class="text-xl">Schedule a Consultation</span>
