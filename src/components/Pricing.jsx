@@ -58,7 +58,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       <p
         className={clsx(
           'text-base',
-          featured ? 'text-white' : 'text-slate-400'
+          featured ? 'text-white' : 'text-white'
         )}
       >
         {description}
@@ -75,7 +75,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       >
         {features.map((feature) => (
           <li key={feature} className="flex">
-            <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} />
+            <CheckIcon className={featured ? 'text-white' : 'text-white'} />
             <span className="ml-4">{feature}</span>
           </li>
         ))}
@@ -99,12 +99,12 @@ export function Pricing() {
             About Ethical Wiki
 
           </h2>
-          <p className="mt-4 text-lg text-slate-400 w-9/12 m-auto">
+          <p className="mt-4 text-lg text-white m-auto">
             Ethical Wiki is a boutique firm operated by David King.
             It serves startups, Fortune 500 companies, politicans, celebrities, non-profits, and others.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 mt-16 grid grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none md:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Years of Experience"
             price="10+"

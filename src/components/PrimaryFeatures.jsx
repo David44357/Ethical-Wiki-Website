@@ -5,7 +5,6 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import wikicode from '@/images/screenshots/wikicode.png'
 import solutions from '@/images/screenshots/Solutions.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
@@ -17,12 +16,7 @@ const features = [
       "Ethical Wiki consults on how Wikipedia's complex content policies apply to your situation and the edits you're looking for",
     image: solutions,
   },
-  {
-    title: 'Draft',
-    description:
-      "",
-    image: wikicode,
-  },
+
   {
     title: 'Review',
     description:

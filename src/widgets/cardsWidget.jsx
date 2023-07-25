@@ -50,19 +50,19 @@ export default function CardsWidget() {
             style={{ backgroundColor: '#210605' }}
         >
 
-            <div className="relative max-w-7xl mx-auto">
+            <div className="relative mx-auto">
 
                 <div className="md:text-center">
                     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
                         Case Studies
                     </h2>
-                    <p className="mt-4 text-lg text-slate-400 w-9/12 m-auto">
+                    <p className="mt-4 text-lg text-slate-400 m-auto">
                         Most of Ethical Wiki's work is focused on rewriting abandoned Wikipedia projects that. However, the case studies below show how we've helped clients through some especially difficult situations.  </p>
                 </div>
 
 
 
-                <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-4 lg:max-w-none">
+                <div className="mt-12  mx-auto grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:max-w-none">
                     {posts.map((post) => (
                         <div key={post.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                             <div className="flex-shrink-0">

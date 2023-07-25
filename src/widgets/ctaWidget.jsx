@@ -7,7 +7,7 @@ export default function CtaWidget() {
                     <span className="block">Get Started</span>
                 </h2>
                 <a href="#" className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md brand-color bg-white hover:bg-indigo-50 sm:w-auto">Schedule a consultation</a>
-                <a href="#" className="mt-8 ml-4 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md brand-color bg-white hover:bg-indigo-50 sm:w-auto">New page assessment</a>
+                <a href="#" className="mt-8 ml-0 md:ml-4 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md brand-color bg-white hover:bg-indigo-50 sm:w-auto">New page assessment</a>
             </div>
         </div>
     )

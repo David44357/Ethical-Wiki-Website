@@ -38,11 +38,11 @@ function Feature({ feature, isActive, className, ...props }) {
       {...props}
     >
 
-      <div className='flex justify-between'>
+      <div className='flex justify-between px-2'>
         <div style={{ maxWidth: '52px' }} className='pt-10'><feature.icon /></div>
         <div className='pl-4'>
           <h3 className={'text-sm font-medium brand-color'}>{feature.name}</h3>
-          <p className="font-display text-xl text-slate-900">
+          <p className="font-display text-lg brand-color">
             {feature.summary}
           </p>
         </div>
@@ -53,23 +53,13 @@ function Feature({ feature, isActive, className, ...props }) {
   )
 }
 
+
 function FeaturesMobile() {
   return (
-    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
+    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden grid grid-cols-1 md:grid-cols-3">
       {features.map((feature) => (
         <div key={feature.name}>
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
-          <div className="relative mt-10 pb-10">
-            <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
-            <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
-              <Image
-                className="w-full"
-                src={feature.image}
-                alt=""
-                sizes="52.75rem"
-              />
-            </div>
-          </div>
         </div>
       ))}
     </div>

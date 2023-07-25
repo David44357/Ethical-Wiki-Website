@@ -48,8 +48,8 @@ export function Faqs() {
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
 
-      <Container className="relative w-1/2 mx-auto">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+      <Container className="relative mx-auto">
+        <div className="mx-auto lg:mx-0">
           <h2
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
@@ -58,15 +58,16 @@ export function Faqs() {
           </h2>
         </div>
 
-        {faqs.map((item) => (
-          <>
-            <h3 className="font-display text-lg leading-7 text-slate-900 mb-4 mt-12">
-              {item.question}
-            </h3>
-            {<div className='text-sm' dangerouslySetInnerHTML={{ __html: item.answer }} />}
-          </>
-        ))}
-
+        <div className='grid grid-cols-1 md:grid-cols-2'>
+          {faqs.map((item) => (
+            <div className='px-2'>
+              <h3 className="font-display text-lg leading-7 text-slate-900 mb-4 mt-12">
+                {item.question}
+              </h3>
+              {<div className='text-sm' dangerouslySetInnerHTML={{ __html: item.answer }} />}
+            </div>
+          ))}
+        </div>
       </Container>
     </section>
   )
