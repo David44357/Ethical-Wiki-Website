@@ -46,7 +46,7 @@ export function Faqs() {
     >
 
       <Container className="relative mx-auto sm:px-10 lg:px-20">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto lg:mx-0">
           <h2
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl mb-8 text-center"
@@ -64,6 +64,7 @@ export function Faqs() {
         ))}
 </ul>
       </Container>
+
     </section>
   )
 }
