@@ -27,7 +27,7 @@ export function CallToAction() {
             See if Wikipedia's rules support the changes you're looking for.
           </p>
           <div className="mt-10 flex justify-center gap-x-6">
-            <div className="mt-10 flex justify-center gap-x-6">
+            <div className="mt-10 flex justify-center gap-x-6 ">
               <Button href="/schedule">Schedule a Consultation</Button>
               <Button href="/newpage"
                 variant="outline" >

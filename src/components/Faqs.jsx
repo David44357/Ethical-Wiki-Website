@@ -1,7 +1,4 @@
-import Image from 'next/image'
-
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-faqs.jpg'
 
 const faqs = [
   {
@@ -10,7 +7,7 @@ const faqs = [
       'Many Wikipedia services advertise they are ethical even though they are banned from Wikipedia for illegal, covert practices. Luckily, Wikipedia itself <a href="https://en.wikipedia.org/wiki/Wikipedia:List_of_paid_editing_companies#Never_blocked">has a list of vendors</a> that meet two basic criteria: (1) Wikipedians know where we are on Wikipedia (2) and Wikipedians have not blocked us. Using a vendor from that list to avoid falling for scams.'
   },
   {
-    question: 'Why participate ethically if I can get better results, faster and easier from covert practices?',
+    question: 'Why participate ethically when it\'s so much harder?',
     answer:
       'Using unethical practices often garner short-term results at a long-term cost. Even if your changes are not immediately reverted, often a <a href="https://en.wikipedia.org/wiki/Template:Undisclosed_paid">badge of shame</a> is later added to the page, publicly advertising your misconduct to readers. Ethical Wiki is often brought in to repair things after someone has already created a bad situation using a black-hat vendor.'
   },
@@ -45,30 +42,29 @@ export function Faqs() {
     <section
       id="faq"
       aria-labelledby="faq-title"
-      className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
+      className="relative overflow-hidden bg-slate-50 py-10 sm:py-16"
     >
 
-      <Container className="relative mx-auto">
+      <Container className="relative mx-auto sm:px-10 lg:px-20">
         <div className="mx-auto lg:mx-0">
           <h2
             id="faq-title"
-            className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
-          >
-            Frequently asked questions
+            className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl mb-8 text-center"
+          >Frequently asked questions
           </h2>
         </div>
-
-        <div className='grid grid-cols-1 md:grid-cols-2'>
-          {faqs.map((item) => (
-            <div className='px-2'>
-              <h3 className="font-display text-lg leading-7 text-slate-900 mb-4 mt-12">
-                {item.question}
-              </h3>
-              {<div className='text-sm' dangerouslySetInnerHTML={{ __html: item.answer }} />}
-            </div>
-          ))}
-        </div>
+<ul class="md:grid-cols-2 gap-6 grid lg:grid-cols-2">
+        {faqs.map((item) => (
+          <>
+            <li><h3 className="font-display text-lg leading-7 text-slate-900 px-2 sm-mt-10">
+              {item.question}
+            </h3>
+            {<div className='text-sm px-2' dangerouslySetInnerHTML={{ __html: item.answer }} />}</li>
+          </>
+        ))}
+</ul>
       </Container>
+
     </section>
   )
 }

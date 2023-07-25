@@ -1,12 +1,7 @@
 import Head from 'next/head'
-
-import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
-import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import Cards from '@/components/Cards'
 import CardsWidget from '@/widgets/cardsWidget'
 import HeroWidget from '@/widgets/heroWidget'
 import CtaWidget from '@/widgets/ctaWidget'

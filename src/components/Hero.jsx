@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -21,10 +20,10 @@ export function Hero() {
         </span>{' '}
         Wikipedia engagement
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <p className="mx-auto mt-6 max-w-2xl z-50 text-lg tracking-tight text-slate-700">
         Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative for brands and individuals that want an honest approach to Wikipedia.
       </p>
-      <div className="mt-10 flex justify-center gap-x-6">
+      <div className="mt-10 flex justify-center gap-x-6 ">
         <Button href="/schedule">Schedule a Consultation</Button>
         <Button href="/newpage"
           variant="outline" >

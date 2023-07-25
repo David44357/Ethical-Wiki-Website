@@ -1,8 +1,6 @@
-import { useId } from 'react'
 import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
 
 const features = [
@@ -34,15 +32,15 @@ const features = [
 function Feature({ feature, isActive, className, ...props }) {
   return (
     <div
-      className={clsx(className, !isActive && 'opacity-75 hover:opacity-100')}
+      className={clsx(className)}
       {...props}
     >
 
-      <div className='flex justify-between px-2'>
+      <div className='flex justify-between'>
         <div style={{ maxWidth: '52px' }} className='pt-10'><feature.icon /></div>
         <div className='pl-4'>
           <h3 className={'text-sm font-medium brand-color'}>{feature.name}</h3>
-          <p className="font-display text-lg brand-color">
+          <p className="font-display text-xl text-slate-900">
             {feature.summary}
           </p>
         </div>
@@ -53,13 +51,23 @@ function Feature({ feature, isActive, className, ...props }) {
   )
 }
 
-
 function FeaturesMobile() {
   return (
-    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden grid grid-cols-1 md:grid-cols-3">
+    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
       {features.map((feature) => (
         <div key={feature.name}>
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
+          <div className="relative mt-10 pb-10">
+            <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
+            <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+              <Image
+                className="w-full"
+                src={feature.image}
+                alt=""
+                sizes="52.75rem"
+              />
+            </div>
+          </div>
         </div>
       ))}
     </div>
@@ -84,7 +92,7 @@ function FeaturesDesktop() {
                     </Tab>
                   ),
                 }}
-                isActive={featureIndex === selectedIndex}
+                
                 className="relative"
               />
             ))}
@@ -101,10 +109,10 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-4 pt-20 sm:pb-8 sm:pt-32 lg:pb-16"
+      className="pb-20 pt-20 sm:pb-32 sm:pt-32 lg:pb-16 lg:pt-16"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
+        <div className="mx-auto max-w-2xl md:text-center mb-10">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Three steps to Ethical Wikipedia Engagement
           </h2>

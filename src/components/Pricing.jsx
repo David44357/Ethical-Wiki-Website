@@ -50,15 +50,15 @@ function Plan({ name, price, description, href, features, featured = false }) {
   return (
     <section
       className={clsx(
-        'flex flex-col rounded-3xl px-6 sm:px-8',
+        'flex flex-col rounded-3xl px-6 sm:px-8 -mb-20',
         featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8'
       )}
     >
-      <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
+      <h3 className="font-display text-lg text-white">{name}</h3>
       <p
         className={clsx(
           'text-base',
-          featured ? 'text-white' : 'text-white'
+          featured ? 'text-white' : 'text-orange-50'
         )}
       >
         {description}
@@ -75,7 +75,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       >
         {features.map((feature) => (
           <li key={feature} className="flex">
-            <CheckIcon className={featured ? 'text-white' : 'text-white'} />
+            <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} />
             <span className="ml-4">{feature}</span>
           </li>
         ))}
@@ -91,20 +91,20 @@ export function Pricing() {
       id="pricing"
       aria-label="Pricing"
       className="bg-slate-900 py-20 sm:py-32"
-      style={{ backgroundColor: '#210605' }}
+      style={{ backgroundColor: '#b52e02' }}
     >
       <Container>
         <div className="md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl text-center">
             About Ethical Wiki
 
           </h2>
-          <p className="mt-4 text-lg text-white m-auto">
+          <p className="mt-4 text-lg text-orange-50 w-9/12 m-auto">
             Ethical Wiki is a boutique firm operated by David King.
             It serves startups, Fortune 500 companies, politicans, celebrities, non-profits, and others.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none md:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="mt-8 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-3 lg:mx-6 lg:max-w-none lg:grid-cols-3 xl:mx-10 xl:gap-x-8 mb-0">
           <Plan
             name="Years of Experience"
             price="10+"
