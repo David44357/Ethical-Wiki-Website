@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
 
 const features = [

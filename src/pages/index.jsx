@@ -1,5 +1,4 @@
 import Head from 'next/head'
-
 import { Faqs } from '@/components/Faqs'
 import { Pricing } from '@/components/Pricing'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
