@@ -4,7 +4,7 @@ const faqs = [
   {
     question: 'How can I tell if a Wikipedia firm is actually ethical?',
     answer:
-      'Many Wikipedia services advertise they are ethical even though they are banned from Wikipedia for illegal, covert practices. Luckily, Wikipedia itself <a href="https://en.wikipedia.org/wiki/Wikipedia:List_of_paid_editing_companies#Never_blocked">has a list of vendors</a> that meet two basic criteria: (1) Wikipedians know where we are on Wikipedia (2) and Wikipedians have not blocked us. Using a vendor from that list to avoid falling for scams.'
+      'Many Wikipedia services advertise they are ethical even though they are banned from Wikipedia for illegal, covert practices. Luckily, Wikipedia itself <a href="https://en.wikipedia.org/wiki/Wikipedia:List_of_paid_editing_companies#Never_blocked">has a list of vendors</a> that meet two basic criteria: (1) Wikipedians know where we are on Wikipedia (2) and Wikipedians have not blocked us. Use a vendor from that list to avoid falling for scams.'
   },
   {
     question: 'Why participate ethically when it\'s so much harder?',
