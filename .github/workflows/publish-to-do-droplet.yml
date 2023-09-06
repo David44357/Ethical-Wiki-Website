@@ -16,7 +16,7 @@ jobs:
           key: ${{secrets.SSHKEY}}
           passphrase: ${{secrets.PASSPHRASE}}
           script: |
-           cd dockerized-sites/king-law-website
+           cd dockerized-sites/Ethical-Wiki-Website
            git pull
       - name: Build Docker Image
         uses: appleboy/ssh-action@master
