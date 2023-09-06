@@ -30,7 +30,7 @@ jobs:
            docker build . -t ethical-wiki-website
            docker stop ethical-wiki-website
            docker rm ethical-wiki-website
-           docker-compose up ethical-wiki-website
+           docker-compose up -d ethical-wiki-website
            docker exec nginx-proxy nginx -s reload
       
       
