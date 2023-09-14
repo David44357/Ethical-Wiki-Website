@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function NewPage() {
     return (
-      <><script src="flutter.js" defer></script>
+      <script src="flutter.js" defer></script>
         <Head>
           <title>Ethical Wiki - A better way</title>
           <meta
@@ -11,7 +11,10 @@ export default function NewPage() {
           />
         </Head>
         <main>
-            /* First make sure that you have installed the package */
+
+
+
+/* First make sure that you have installed the package */
   
   /* If you are using yarn */
   // yarn add @calcom/embed-react
@@ -33,6 +36,11 @@ export default function NewPage() {
 	  data-cal-config='{"layout":"month_view"}'
 	  >Click me</button>;
   };
+  
+
+
+
+		
         
          </main>
   
