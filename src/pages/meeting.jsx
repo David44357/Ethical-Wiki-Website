@@ -11,7 +11,7 @@ export default function NewPage() {
           />
         </Head>
         <main>
-        <iframe src="https://cal.com/ethicalwiki/meeting" width="100%" height="1500px"></iframe>
+        <iframe src="https://cal.com/ethicalwiki/meeting" width="100%" height="1100px"></iframe>
         
          </main>
   
