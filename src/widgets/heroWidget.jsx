@@ -28,6 +28,23 @@ export default function HeroWidget() {
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
+
+ import { getCalApi } from "@calcom/embed-react";
+  import { useEffect } from "react";
+  export default function App() {
+	useEffect(()=>{
+	  (async function () {
+		const cal = await getCalApi();
+		cal("ui", {"styles":{"branding":{"brandColor":"#FF551C"}},"hideEventTypeDetails":false,"layout":"month_view"});
+	  })();
+	}, [])
+	return <button
+	  data-cal-link="ethicalwiki/meeting"
+	  data-cal-config='{"layout":"month_view"}'
+	  >Click me</button>;
+  };
+
+                                    
                                     <a
                                         href="/meeting"
                                         className="w-full brand-bg flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10"
