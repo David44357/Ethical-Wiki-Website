@@ -33,8 +33,6 @@ export default function NewPage() {
 	  data-cal-config='{"layout":"month_view"}'
 	  >Click me</button>;
   };
-  
-        <iframe src="https://cal.com/ethicalwiki/meeting" width="100%" height="1100px"></iframe>
         
          </main>
   
