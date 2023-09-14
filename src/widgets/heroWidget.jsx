@@ -1,6 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 
 
+
 export default function HeroWidget() {
     return (
         <div className="relative bg-white overflow-hidden">
@@ -26,11 +27,12 @@ export default function HeroWidget() {
                                 Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative for brands and individuals that want an honest approach to Wikipedia.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                                <div className="rounded-md shadow">                                    <a
-                                        href="https://cal.com/ethicalwiki/meeting/"
+                                <div className="rounded-md shadow">
+                                    <a
+                                        href="/meeting"
                                         className="w-full brand-bg flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10"
                                     >
-                                        <span class="text-xl">Schedule a Meeting</span>
+                                        <span class="text-xl">Schedule a Consultation</span>
                                     </a>
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -39,7 +41,6 @@ export default function HeroWidget() {
                                         className="w-ful brand-bg-light flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md brand-color bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                                     >
                                        <span class="text-xl">New Page Assessment</span>
-                                        
                                     </a>
                                 </div>
                             </div>
@@ -50,7 +51,7 @@ export default function HeroWidget() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
                     className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                    src="/images/team-1.png"
+                    src="/images/about-bg.jpg"
                     alt=""
                 />
             </div>
