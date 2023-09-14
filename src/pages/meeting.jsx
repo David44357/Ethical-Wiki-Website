@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function NewPage() {
     return (
-      <script src="flutter.js" defer></script>
+      <><script src="flutter.js" defer></script>
         <Head>
           <title>Ethical Wiki - A better way</title>
           <meta
@@ -11,12 +11,7 @@ export default function NewPage() {
           />
         </Head>
         <main>
-
-  
-
-
-
-		
+        <iframe src="https://calendly.com/davidaking/wiki" width="100%" height="1500px"></iframe>
         
          </main>
   
