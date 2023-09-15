@@ -57,7 +57,7 @@ export default function CardsWidget() {
                         Case Studies
                     </h2>
                     <p className="mt-4 text-lg text-orange-50 w-9/12 m-auto">
-                        Most of Ethical Wiki's work is focused on rewriting abandoned Wikipedia pages that are not interesting enough to Wikipedia's volunteer editors. However, the case studies below show how we've helped clients through some especially difficult situations.  </p>
+                        Most of Ethical Wiki's work is focused on rewriting abandoned Wikipedia pages that didn't attract volunteer editors. However, the case studies below show how we've helped clients through some especially difficult situations.  </p>
                 </div>
 
 
