@@ -32,7 +32,7 @@ const posts = [
         imageUrl: '/images/movingup-3.webp',
     },
     {
-        title: 'Balancing a Page Focused on Controversy',
+        title: 'Balancing a Controversial Page',
         href: '/case-study/balancing',
         category: { name: 'Case Study', href: '#' },
         description:
@@ -53,7 +53,7 @@ export default function CardsWidget() {
             <div className="relative max-w-7xl mx-auto">
 
                 <div className="md:text-center">
-                    <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+                    <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl text-center">
                         Case Studies
                     </h2>
                     <p className="mt-4 text-lg text-orange-50 w-9/12 m-auto">
