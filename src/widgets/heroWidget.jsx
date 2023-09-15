@@ -32,7 +32,7 @@ export default function HeroWidget() {
                                         href="/meeting"
                                         className="w-full brand-bg flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10"
                                     >
-                                        <span class="text-xl">Schedule a Meeting</span>
+                                        <span class="text-xl">Schedule a Consultation</span>
                                     </a>
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -51,7 +51,7 @@ export default function HeroWidget() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
                     className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                    src="/images/about-bg.jpg"
+                    src="/images/team.png"
                     alt=""
                 />
             </div>
