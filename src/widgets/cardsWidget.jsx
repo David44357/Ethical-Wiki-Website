@@ -8,7 +8,7 @@ const posts = [
             'According to Wikipedia, a troll is someone that is deliberately disruptive to the site, often in order to inflame or invite conflict.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        imageUrl: '/images/about-bg.jpg',
+        imageUrl: '/images/about-bg.webp',
 
     },
     {
@@ -19,7 +19,7 @@ const posts = [
             'A billion dollar corporation was in a protracted edit-war with a small business they compete with over the content of their Wikipedia page...',
         date: 'Mar 10, 2020',
         datetime: '2020-03-10',
-        imageUrl: '/images/punch.jpg',
+        imageUrl: '/images/punch.webp',
     },
     {
         title: 'Creating a New Page',
@@ -29,7 +29,7 @@ const posts = [
             'Almost 20 years ago, two people started a website that started as a basic forum. Over the years, the website slowly grew into a job board... ',
         date: 'Feb 12, 2020',
         datetime: '2020-02-12',
-        imageUrl: '/images/movingup-3.jpg',
+        imageUrl: '/images/movingup-3.webp',
     },
     {
         title: 'Balancing a Page Focused on Controversy',
@@ -39,7 +39,7 @@ const posts = [
             'A large technology company had a Wikipedia page that focused almost exclusively on their controversies...',
         date: 'Feb 12, 2020',
         datetime: '2020-02-12',
-        imageUrl: '/images/sierrafarm-4.jpg',
+        imageUrl: '/images/sierrafarm-4.webp',
 
     },
 ]
