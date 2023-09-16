@@ -7,7 +7,7 @@ export default function NewPage() {
           <title>Ethical Wiki - A better way</title>
           <meta
             name="description"
-            content="Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative."
+            content="Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative..."
           />
         </Head>
         <main>

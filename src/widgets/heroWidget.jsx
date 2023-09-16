@@ -29,7 +29,7 @@ export default function HeroWidget() {
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
                                     <a
-                                        href="/meeting"
+                                        href="https://cal.com/ethicalwiki/meeting"
                                         className="w-full brand-bg flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10"
                                     >
                                         <span class="text-xl">Schedule a Consultation</span>
@@ -37,8 +37,8 @@ export default function HeroWidget() {
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
                                     <a
-                                        href="/newpage"
-                                        className="w-ful brand-bg-light flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md brand-color bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                                        href="https://new-page-assessment-6p802b.flutterflow.app/"
+                                        className="w-ful brand-bg-light flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md brand-color bg-indigo-100 md:py-4 md:text-lg md:px-10"
                                     >
                                        <span class="text-xl">New Page Assessment</span>
                                     </a>
@@ -51,7 +51,7 @@ export default function HeroWidget() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
                     className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+                    src="/images/team2.webp"
                     alt=""
                 />
             </div>
