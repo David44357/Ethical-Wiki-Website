@@ -19,7 +19,7 @@ export default () => <>
         <Container className="relative w-1/2 mx-auto">
             <div class="entry-content content leading-tight text-sm">
                 <div class="entry-content content">
-                    <p><img decoding="async" src="https://ethicalwiki.com/wp-content/uploads/2021/12/punch.jpg" /></p>
+                    <p><img decoding="async" src="/images/punch.webp" /></p>
                     <h5 className='font-display text-xl text-slate-900 mt-12'>Introduction</h5>
                     <p>A billion dollar corporation was in a protracted edit-war with a small business they compete with over the content of their Wikipedia page. Neither the client&nbsp;nor the small business were transparent about their&nbsp;relationship to the company. Both had egregiously violated Wikipedia’s content policies. Both were immensely frustrated by the other. Both were reverting the other and adding their own bias content. On Wikipedia we call this is an “edit-war,” but going to war wasn’t the answer.</p>
                     <h5 className='font-display text-xl text-slate-900 mt-12'>The Rules</h5>

@@ -22,7 +22,7 @@ export default () => <>
 
 
 
-                    <p><img decoding="async" src="https://ethicalwiki.com/wp-content/uploads/2021/12/about-bg.png" /></p>
+                    <p><img decoding="async" src="/images/about-bg.webp" /></p>
                     <h5 className='font-display text-xl text-slate-900 mt-12'>Introduction</h5>
                     <p>According <a href="https://meta.wikimedia.org/wiki/What_is_a_troll%3F">to Wikipedia</a>, a troll is someone that is deliberately disruptive to the site, often in order to inflame or invite conflict. That page points out that “It is really common for companies, individuals, and others to see a crowd-sourced Wikipedia editor making edits they don’t like and call them a troll. It’s one of those labels that are easily thrown around to slander your opposition.” In other words, when the subject of a Wikipedia page calls an editor a “troll,” more often than not it’s the subject of the article that is biased, not the alleged troll.</p>
                     <p>As a technical manner, this case study is really referring to what Wikipedia calls a “<a href="https://en.wikipedia.org/wiki/Wikipedia:POV_warrior">Point of View Warrior</a>.” This is someone extremely determined to get Wikipedia to articulate a radical, non-neutral depiction to readers and is willing to be disruptive to get their way. In this case, a client made changes to their product and made political statements that many customers didn’t like, causing some customers and political activists to attack them online wherever they could.</p>

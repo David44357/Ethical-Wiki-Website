@@ -18,7 +18,7 @@ export default () => <>
         />
         <Container className="relative w-1/2 mx-auto">
             <div class="entry-content content leading-tight text-sm">
-                <p><img alt="async" src="https://ethicalwiki.com/wp-content/uploads/2021/12/sierrafarm-4.jpg" /></p>
+                <p><img alt="async" src="/images/sierrafarm-4.webp" /></p>
                 <h5 className='font-display text-xl text-slate-900' >Introduction</h5>
                 <p>A large technology company had a Wikipedia page that focused almost exclusively on their controversies. These controversies were genuinely a significant part of the company’s history. However, it wasn’t right for the controversies to be the main emphasis of the page. The company contacted Ethical Wiki about creating a more complete, comprehensive, up-to-date, and balanced Wikipedia page.</p>
                 <h5 className='font-display text-xl text-slate-900 mt-12'>The Rules</h5>

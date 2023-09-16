@@ -19,7 +19,7 @@ export default () => <>
         <Container className="relative w-1/2 mx-auto">
             <div class="entry-content content leading-tight text-sm">
 
-                <p><img alt="a" src="https://ethicalwiki.com/wp-content/uploads/2021/12/movingup-3.jpg" /></p>
+                <p><img alt="a" src="/images/movingup-3.webp" /></p>
                 <h5 className='font-display text-xl text-slate-900 mt-12'>Introduction</h5>
                 <p>Almost 20 years ago, two people started a website that started as a basic forum. Over the years, the website slowly grew into a job board, blog, forum, social network, and professional resources hub for millions of users. The website was covered in the mainstream media and in academic journals. Its growing popularity was seen as a signal for trends in their profession. But did the online community qualify for a Wikipedia page? That is the perennial question when it comes to new pages.</p>
                 <h5 className='font-display text-xl text-slate-900 mt-12'>The Rules</h5>
