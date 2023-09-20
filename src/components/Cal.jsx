@@ -14,8 +14,8 @@ export function Cal() {
             cal("ui", { "styles": { "branding": { "brandColor": "#FF551C" } }, "hideEventTypeDetails": false, "layout": "month_view" });
         })();
     }, [])
-    return <Button
+    return <span class="text-xl"
     data-cal-link="kinglawnc/consultation"
     data-cal-config='{"layout":"month_view"}'
-    >Schedule a Consultation</Button>;
+    >Schedule a Consultation</span>;
 };
