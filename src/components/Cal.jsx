@@ -3,19 +3,22 @@
 // yarn add @calcom/embed-react
 /* If you are using npm */
 // npm install @calcom/embed-react
-import { getCalApi } from "@calcom/embed-react";
-import { useEffect } from "react";
+import Cal,{ getCalApi } from "@calcom/embed-react";
+import { useEffect,useRef } from "react";
 import { Button } from './Button'
 
-export function Cal() {
-    useEffect(() => {
-        (async function () {
-            const cal = await getCalApi();
-            cal("ui", { "styles": { "branding": { "brandColor": "#FF551C" } }, "hideEventTypeDetails": false, "layout": "month_view" });
-        })();
-    }, [])
-    return <span class="text-xl"
-    data-cal-link="kinglawnc/consultation"
-    data-cal-config='{"layout":"month_view"}'
-    >Schedule a Consultation</span>;
-};
+
+export default function MyApp() {
+	useEffect(()=>{
+	  (async function () {
+		const cal = await getCalApi();
+		cal("ui", {"styles":{"branding":{"brandColor":"#FF551C"}},"hideEventTypeDetails":false,"layout":"month_view"});
+	  })();
+	}, [])
+	return (<div className="content-center"><Cal
+	  calLink="ethicalwiki/meeting"
+	  //style={{width:"100%",height:"100%",overflow:"scroll"}}
+	  config={{layout: 'month_view'}}
+	/></div>);
+  };
+  
