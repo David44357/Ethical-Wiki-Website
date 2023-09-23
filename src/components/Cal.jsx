@@ -15,7 +15,7 @@ export default function MyApp() {
 		cal("ui", {"styles":{"branding":{"brandColor":"#FF551C"}},"hideEventTypeDetails":false,"layout":"month_view"});
 	  })();
 	}, [])
-	return (<div className="content-center"><Cal
+	return (<div style={{marginRight:"1em",marginLeft:"1em",marginTop:"1em"}} className="content-center"><Cal
 	  calLink="ethicalwiki/meeting"
 	  //style={{width:"100%",height:"100%",overflow:"scroll"}}
 	  config={{layout: 'month_view'}}

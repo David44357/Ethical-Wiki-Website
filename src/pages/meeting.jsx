@@ -3,12 +3,6 @@ import Cal from '@/components/Cal'
 import { useEffect,useRef } from "react";
 
 export default function NewPage() {
-  const buttonRef = useRef(null);
-  const simulateButtonClick = () => {
-    if (buttonRef.current) {
-      buttonRef.current.click(); // This simulates a button click
-    }
-  };
     return (
       <>
         {/* <Head>
