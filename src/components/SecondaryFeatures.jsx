@@ -9,7 +9,8 @@ const features = [
     summary: 'Be transparent about your vested interest in the page',
     description:
       'Wikipedia\'s Terms of Use and FTC regulations prohibit brands from participating on crowd-sourced websites without announcing their connection to the topic.',
-    icon: () => <><img src="/icons/regulations-icon.png" /></>,
+    icon: () => <><img width={52}
+    height={120} src="/icons/regulations-icon.png" /></>,
   },
   {
     name: 'Wikipedia Policy',
@@ -17,7 +18,8 @@ const features = [
       'Request edits rather than making them yourself',
     description:
       'Wikipedia\'s Conflict of Interest policy requires that you request edits from the site\'s editors, just like you would for any other independent website.',
-    icon: () => <><img src="/icons/release-time-icon.png" /></>,
+    icon: () => <><img {52}
+    height={120} src="/icons/release-time-icon.png" /></>,
   },
   {
     name: 'Wikipedias Ethos',
@@ -25,7 +27,8 @@ const features = [
       'Do your best to contribute neutral content.',
     description:
       'Wikipedia\'s Arbitration Committee (the Supreme Court of Wikipedia) has confirmed they expect you to comply with the spirit of Wikipedia, not just the letter of its rules.',
-    icon: () => <><img src="/icons/stability-icon.png" /></>,
+    icon: () => <><img width={52}
+    height={120} src="/icons/stability-icon.png" /></>,
   },
 ]
 
