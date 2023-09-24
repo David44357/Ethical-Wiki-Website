@@ -18,7 +18,7 @@ const features = [
       'Request edits rather than making them yourself',
     description:
       'Wikipedia\'s Conflict of Interest policy requires that you request edits from the site\'s editors, just like you would for any other independent website.',
-    icon: () => <><img {52}
+    icon: () => <><img width={52}
     height={120} src="/icons/release-time-icon.png" /></>,
   },
   {
