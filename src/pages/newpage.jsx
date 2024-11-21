@@ -1,21 +1,32 @@
 import Head from 'next/head'
+import { Faqs } from '@/components/Faqs'
+import { Pricing } from '@/components/Pricing'
+import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import CardsWidget from '@/widgets/cardsWidget'
+import HeroWidget from '@/widgets/heroWidget'
+import CtaWidget from '@/widgets/ctaWidget'
 
-export default function NewPage() {
-    return (
-      <><script src="flutter.js" defer></script>
-        <Head>
-          <title>Ethical Wiki - A better way</title>
-          <meta
-            name="description"
-            content="Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative."
-          />
-        </Head>
-        <main>
-        <iframe src="https://david44357.plumsail.io/a6f6d916-22cf-422d-8116-7fd4968d1ab6" width="100%" height="1500px"></iframe>
-        
-         </main>
-  
-      </>
-    )
-  }
-  
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Ethical Wiki - A better way</title>
+        <meta
+          name="description"
+          content="Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative..."
+        />
+      </Head>
+
+
+      <main>
+        <HeroWidget />
+        <Pricing />
+        <SecondaryFeatures />
+        <CardsWidget />
+        <Faqs />
+        <CtaWidget />
+      </main>
+
+    </>
+  )
+}
