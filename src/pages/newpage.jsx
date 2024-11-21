@@ -19,7 +19,6 @@ export default function Home() {
 
 
       <main>
-        <Pricing />
         <SecondaryFeatures />
         <CardsWidget />
         <Faqs />
