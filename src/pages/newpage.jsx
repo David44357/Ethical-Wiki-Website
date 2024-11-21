@@ -19,7 +19,6 @@ export default function Home() {
 
 
       <main>
-        <HeroWidget />
         <Pricing />
         <SecondaryFeatures />
         <CardsWidget />
