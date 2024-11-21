@@ -20,9 +20,7 @@ export default function Home() {
 
       <main>
 
-        <CardsWidget />
-        <Faqs />
-        <CtaWidget />
+
       </main>
 
     </>
