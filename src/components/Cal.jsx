@@ -11,14 +11,15 @@ import { Button } from './Button'
 export default function MyApp() {
 	useEffect(()=>{
 	  (async function () {
-		const cal = await getCalApi();
-		cal("ui", {"styles":{"branding":{"brandColor":"#FF551C"}},"hideEventTypeDetails":false,"layout":"month_view"});
+		const cal = await getCalApi({"namespace":"meeting"});
+		cal("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
 	  })();
 	}, [])
-	return (<div style={{marginRight:"1em",marginLeft:"1em",marginTop:"1em"}} className="content-center"><Cal
+	return <Cal namespace="meeting"
 	  calLink="ethicalwiki/meeting"
-	  //style={{width:"100%",height:"100%",overflow:"scroll"}}
-	  config={{layout: 'month_view'}}
-	/></div>);
+	  style={{width:"100%",height:"100%",overflow:"scroll"}}
+	  config={{"layout":"month_view"}}
+	/>;
+	
   };
   
