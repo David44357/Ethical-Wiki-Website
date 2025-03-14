@@ -2,20 +2,24 @@ import Head from 'next/head'
 import Cal from '@/components/Cal'
 import { useEffect,useRef } from "react";
 
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+
 export default function NewPage() {
-    return (
-      <>
-        {/* <Head>
-          <title>Ethical Wiki - A better way</title>
-          <meta
-            name="description"
-            content="Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative..."
-          />
-        </Head> */}
-    
-   
-         <Cal></Cal>
-      </>
-    )
-  }
+  const router = useRouter();
+
+  useEffect(() => {
+    // Replace 'YOUR_REDIRECT_URL' with the actual URL you want to redirect to.
+    router.push('https://cal.com/ethicalwiki/meeting'); 
+  }, [router]);
+  return (
+    <div>
+      Loading calendar...
+    </div>
+  );
+}
+
+
+
+
   
