@@ -17,7 +17,7 @@ export default function MyApp() {
 	}, [])
 	return <Cal namespace="meeting"
 	  calLink="ethicalwiki/meeting"
-	  style={{width:"100%",height:"100%",overflow:"scroll"}}
+	  style={{width:"100%",height:"100%",overflow:"scroll",margin: "20px"}}
 	  config={{"layout":"month_view"}}
 	/>;
 	
