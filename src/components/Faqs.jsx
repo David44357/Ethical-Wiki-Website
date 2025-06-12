@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: 'How much does it cost?',
-    answer: 'Our fees range from $900 for small, simple projects, to $8,000 for extremely large pages on billion dollar companies. Most projects range from $2,000-$4,000. New pages are usually small and are always $1,800.',
+    answer: 'Our fees range from $1,200 for small, simple projects, to $8,000 for extremely large pages. Most projects range from $2,000-$6,000. New pages are usually small and are always $1,800.',
   },
   {
     question: 'How long does it take?',
