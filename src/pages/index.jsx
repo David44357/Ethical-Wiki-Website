@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import { Faqs } from '@/components/Faqs'
+import { Cost } from '@/components/Cost'
 import { Pricing } from '@/components/Pricing'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import CardsWidget from '@/widgets/cardsWidget'
 import HeroWidget from '@/widgets/heroWidget'
 import CtaWidget from '@/widgets/ctaWidget'
+
+
 
 export default function Home() {
   return (
@@ -25,6 +28,7 @@ export default function Home() {
         <CardsWidget />
         <Faqs />
         <CtaWidget />
+        <Cost />
       </main>
 
     </>
