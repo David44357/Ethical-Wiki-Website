@@ -62,7 +62,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Cost() {
+export function Cost() {
   const [frequency, setFrequency] = useState(frequencies[0])
 
   return (
