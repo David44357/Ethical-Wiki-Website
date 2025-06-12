@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import { Radio, RadioGroup } from '@headlessui/react'
-import { CheckIcon } from '@heroicons/react/20/solid'
+import { Container } from '@/components/Container'
 
 const frequencies = [
   { value: 'monthly', label: 'Monthly', priceSuffix: '/month' },
