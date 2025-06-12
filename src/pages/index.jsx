@@ -5,6 +5,7 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import CardsWidget from '@/widgets/cardsWidget'
 import HeroWidget from '@/widgets/heroWidget'
 import CtaWidget from '@/widgets/ctaWidget'
+import { cost } from '@/components/cost'
 
 export default function Home() {
   return (
