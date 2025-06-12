@@ -64,8 +64,7 @@ const tiers = [
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-
-export default function Example() {
+export function cost() {
   const [frequency, setFrequency] = useState(frequencies[0])
 
   return (
