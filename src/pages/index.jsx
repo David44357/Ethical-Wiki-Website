@@ -25,7 +25,7 @@ export default function Home() {
         <CardsWidget />
         <Faqs />
         <CtaWidget />
-        <cost/>
+        <cost />
       </main>
 
     </>
