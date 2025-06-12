@@ -14,7 +14,7 @@ export default function NewPage() {
         </Head> */}
     
    
-         <Cal style={{ marginTop: '20px' }}></Cal>
+         <Cal style={{ marginTop: '30px' }}></Cal>
       </>
     )
   }
