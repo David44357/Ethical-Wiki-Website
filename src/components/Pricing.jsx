@@ -20,6 +20,7 @@ function SwirlyDoodle({ className }) {
   )
 }
 
+
 function CheckIcon({ className }) {
   return (
     <svg
