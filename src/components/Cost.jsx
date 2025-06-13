@@ -105,10 +105,7 @@ export function Cost() {
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Flat Fee </span>
-            </span>{' '}
-            Annual Contract.
+            Flat-Fee</span>
           </h2>
           <p className="mt-4 text-lg text-slate-400">
             One year of service for a flat fee
@@ -116,8 +113,8 @@ export function Cost() {
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Maintenance"
-            price="$1,200 per-page"
+            name="$1,200"
+            price="Maintenance"
             description="Long-term support."
             href="/register"
             features={[
@@ -129,8 +126,8 @@ export function Cost() {
           />
           <Plan
             featured
-            name="New Page"
-            price="$2,400"
+            name="$2,400"
+            price="New Page"
             description="Through Articles for Creation"
             href="/register"
             features={[
@@ -141,8 +138,8 @@ export function Cost() {
             ]}
           />
           <Plan
-            name="Page Overhaul"
-            price="$3,600-$8,400"
+            name="$3-9k"
+            price="Page Overhaul"
             description="Most wiki-page updates"
             href="/register"
             features={[
