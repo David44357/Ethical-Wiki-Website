@@ -12,10 +12,6 @@ const faqs = [
       'Using unethical practices often garner short-term results at a long-term cost. Even if your changes are not immediately reverted, often a <a href="https://en.wikipedia.org/wiki/Template:Undisclosed_paid">badge of shame</a> is later added to the page, publicly advertising your misconduct to readers. Ethical Wiki is often brought in to repair things after someone has already created a bad situation using a black-hat vendor.'
   },
   {
-    question: 'How much does it cost?',
-    answer: 'Our fees range from $1,200 for small, simple projects, to $8,000 for extremely large pages. Most projects range from $2,000-$6,000. New pages are usually small and are always $1,800.',
-  },
-  {
     question: 'How long does it take?',
     answer:
       'Wikipedians are volunteers that are not beholden to any particular timetable. Sometimes, very large projects are approved by editors within 24 hours. Other times, we spend months following up on obvious changes. Three months is a good general timetable to circulate internally.',
