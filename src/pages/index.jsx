@@ -27,8 +27,9 @@ export default function Home() {
         <SecondaryFeatures />
         <CardsWidget />
         <Faqs />
+                <Cost />
         <CtaWidget />
-        <Cost />
+
       </main>
 
     </>
