@@ -106,12 +106,12 @@ export function Cost() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Flat Fee Annual Contracts</span>
+              <span className="relative">Flat Fee </span>
             </span>{' '}
-            for everyone.
+            Annual Contract.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Our flat-fee pricing covers one year of service from the contract date
+            One year of service for a flat fee
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
@@ -135,7 +135,7 @@ export function Cost() {
             href="/register"
             features={[
               'Research write and wiki-code a draft',
-              'Consult on Wikipedia's rules during review',
+              'Consult on Wikipedia rules during review',
               'Coach client through submission',
               'Maintenance services for one year upon approval',
             ]}
@@ -147,7 +147,7 @@ export function Cost() {
             href="/register"
             features={[
               'Research write and wiki-code a draft',
-              'Consult on Wikipedia's rules during review',
+              'Consult on Wikipedia rules during review',
               'Coach client through submission',
               'Maintenance services for one year upon approval',
             ]}
