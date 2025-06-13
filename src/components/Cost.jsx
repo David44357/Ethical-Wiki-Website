@@ -64,7 +64,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       >
         {description}
       </p>
-      <p className="order-first font-display text-5xl font-light tracking-tight text-white">
+      <p className="order-first font-display text-5xl font-light tracking-tight text-white mt-0 mb-3">
         {price}
       </p>
       <ul
@@ -126,7 +126,7 @@ export function Cost() {
               'Research write and wiki-code a draft',
               'Consult on Wikipedia rules during review',
               'Coach client through submission',
-              'Maintenance services for one year upon approval',
+              'Maintenance services for one year',
             ]}
           />
           <Plan
