@@ -131,7 +131,7 @@ export function Cost() {
           />
           <Plan
             featured
-            name="$3-9k"
+            name="$4-9k"
             price="Overhaul"
             description="A dramatic rework of a derelict page"
             href="/register"
