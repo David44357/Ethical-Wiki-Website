@@ -70,7 +70,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       <ul
         role="list"
         className={clsx(
-          'order-last mt-10 flex flex-col gap-y-3 text-sm',
+          'order-last mt-5 flex flex-col gap-y-3 text-sm',
           featured ? 'text-white' : 'text-slate-200',
         )}
       >
@@ -81,15 +81,6 @@ function Plan({ name, price, description, href, features, featured = false }) {
           </li>
         ))}
       </ul>
-      <Button
-        href={href}
-        variant={featured ? 'solid' : 'outline'}
-        color="white"
-        className="mt-8"
-        aria-label={`Get started with the ${name} plan for ${price}`}
-      >
-        Get started
-      </Button>
     </section>
   )
 }
@@ -139,8 +130,8 @@ export function Cost() {
           />
           <Plan
             name="$3-9k"
-            price="Page Overhaul"
-            description="Most wiki-page updates"
+            price="Overhaul"
+            description="A dramatic rework of a derelict page"
             href="/register"
             features={[
               'Research write and wiki-code a draft',
