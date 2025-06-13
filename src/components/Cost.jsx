@@ -94,7 +94,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
   )
 }
 
-export function Pricing() {
+export function Cost() {
   return (
     <section
       id="pricing"
