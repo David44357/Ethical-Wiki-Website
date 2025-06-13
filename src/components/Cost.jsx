@@ -55,7 +55,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8',
       )}
     >
-      <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
+      <h3 className="mt-0 font-display text-lg text-white">{name}</h3>
       <p
         className={clsx(
           'mt-2 text-base',
@@ -70,7 +70,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       <ul
         role="list"
         className={clsx(
-          'order-last mt-5 flex flex-col gap-y-3 text-sm',
+          'order-last mt-0 flex flex-col gap-y-3 text-sm',
           featured ? 'text-white' : 'text-slate-200',
         )}
       >
@@ -102,24 +102,25 @@ export function Cost() {
             One year of service for a flat fee
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 mt-14 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
+            featured
             name="$1,200"
             price="Maintenance"
-            description="Long-term support."
+            description="Long-term support"
             href="/register"
             features={[
               'Monitor the Wikipedia page',
-              'Help with responding to bad edits',
-              'Supporting updates',
-              'Consulting on client questions',
+              'Help respond to bad edits',
+              'Support updates',
+              'Consult as issues arise',
             ]}
           />
           <Plan
             featured
             name="$2,400"
             price="New Page"
-            description="Through Articles for Creation"
+            description="Submit a draft to Wikipedia"
             href="/register"
             features={[
               'Research write and wiki-code a draft',
@@ -129,6 +130,7 @@ export function Cost() {
             ]}
           />
           <Plan
+            featured
             name="$3-9k"
             price="Overhaul"
             description="A dramatic rework of a derelict page"
@@ -137,7 +139,7 @@ export function Cost() {
               'Research write and wiki-code a draft',
               'Consult on Wikipedia rules during review',
               'Coach client through submission',
-              'Maintenance services for one year upon approval',
+              'Maintenance services for one year',
             ]}
           />
         </div>
