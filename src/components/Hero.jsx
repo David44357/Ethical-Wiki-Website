@@ -27,7 +27,7 @@ export function Hero() {
         <Button href="/schedule">Schedule a Consultation</Button>
         <Button href="/newpage"
           variant="outline" >
-          <span className="ml-3">New Page Assessment</span>
+          <span className="ml-3">Creating a New Page</span>
         </Button>
       </div>
       <div className="mt-36 lg:mt-44">
