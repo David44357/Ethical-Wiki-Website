@@ -24,7 +24,9 @@ export function Hero() {
         Most Wikipedia firms edit the site in secret, violating Wikipedia's Terms of Use and the FTC's covert marketing regulations. Ethical Wiki offers an alternative for brands and individuals that want an honest approach to Wikipedia.
       </p>
       <div className="mt-10 flex justify-center gap-x-6 ">
-        <Button href="/schedule">Schedule a Consultation</Button>
+        <Button href="/scheduleTest">Schedule a Consultation</Button>
+
+        
         <Button href="/newpage"
           variant="outline" >
           <span className="ml-3">Creating a New Page</span>
