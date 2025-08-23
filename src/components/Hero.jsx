@@ -7,7 +7,7 @@ export function Hero() {
     <Container className="pb-16 pt-20 text-center lg:pt-32 bg-[url('/img/hero-pattern.svg')]">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         {' '}
-        <span className="relative whitespace-nowrap brand-color">
+        <span className="relative whitespace-nowrap brand-color" >
           <svg
             aria-hidden="true"
             viewBox="0 0 418 42"
